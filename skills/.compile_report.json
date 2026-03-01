@@ -1,0 +1,387 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "arbor",
+  "evidence": {
+    "core_skills": [
+      "arbor-build-and-install",
+      "arbor-api-and-scripting",
+      "arbor-simulation-workflows",
+      "arbor-examples-and-tutorials",
+      "arbor-inputs-and-modeling",
+      "arbor-cpp"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/arbor-build-and-install.md",
+      "skills/.evidence/arbor-api-and-scripting.md",
+      "skills/.evidence/arbor-simulation-workflows.md",
+      "skills/.evidence/arbor-examples-and-tutorials.md",
+      "skills/.evidence/arbor-inputs-and-modeling.md",
+      "skills/.evidence/arbor-cpp.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [
+        "skills/arbor-advanced-topics/SKILL.md",
+        "skills/arbor-advanced-topics/references/doc_map.md",
+        "skills/arbor-advanced-topics/references/source_map.md"
+      ],
+      "changed": [
+        "skills/arbor-advanced-topics/SKILL.md",
+        "skills/arbor-advanced-topics/references/doc_map.md",
+        "skills/arbor-advanced-topics/references/source_map.md",
+        "skills/arbor-api-and-scripting/SKILL.md",
+        "skills/arbor-build-and-install/SKILL.md",
+        "skills/arbor-contrib/SKILL.md",
+        "skills/arbor-contrib/references/doc_map.md",
+        "skills/arbor-contrib/references/source_map.md",
+        "skills/arbor-cpp/SKILL.md",
+        "skills/arbor-developer-guide/SKILL.md",
+        "skills/arbor-developer-guide/references/doc_map.md",
+        "skills/arbor-developer-guide/references/source_map.md",
+        "skills/arbor-examples-and-tutorials/SKILL.md",
+        "skills/arbor-general/SKILL.md",
+        "skills/arbor-general/references/doc_map.md",
+        "skills/arbor-general/references/source_map.md",
+        "skills/arbor-index/SKILL.md",
+        "skills/arbor-inputs-and-modeling/SKILL.md",
+        "skills/arbor-requirements/SKILL.md",
+        "skills/arbor-requirements/references/doc_map.md",
+        "skills/arbor-requirements/references/source_map.md",
+        "skills/arbor-simulation-workflows/SKILL.md",
+        "skills/arbor-validation/SKILL.md",
+        "skills/arbor-validation/references/doc_map.md",
+        "skills/arbor-validation/references/source_map.md"
+      ],
+      "deleted": [
+        "skills/arbor-contrib/SKILL.md",
+        "skills/arbor-contrib/references/doc_map.md",
+        "skills/arbor-contrib/references/source_map.md",
+        "skills/arbor-developer-guide/SKILL.md",
+        "skills/arbor-developer-guide/references/doc_map.md",
+        "skills/arbor-developer-guide/references/source_map.md",
+        "skills/arbor-general/SKILL.md",
+        "skills/arbor-general/references/doc_map.md",
+        "skills/arbor-general/references/source_map.md",
+        "skills/arbor-requirements/SKILL.md",
+        "skills/arbor-requirements/references/doc_map.md",
+        "skills/arbor-requirements/references/source_map.md",
+        "skills/arbor-validation/SKILL.md",
+        "skills/arbor-validation/references/doc_map.md",
+        "skills/arbor-validation/references/source_map.md"
+      ],
+      "modified": [
+        "skills/arbor-api-and-scripting/SKILL.md",
+        "skills/arbor-build-and-install/SKILL.md",
+        "skills/arbor-cpp/SKILL.md",
+        "skills/arbor-examples-and-tutorials/SKILL.md",
+        "skills/arbor-index/SKILL.md",
+        "skills/arbor-inputs-and-modeling/SKILL.md",
+        "skills/arbor-simulation-workflows/SKILL.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/arbor-advanced-topics/SKILL.md",
+        "skills/arbor-advanced-topics/references/source_map.md",
+        "skills/arbor-concepts/SKILL.md",
+        "skills/arbor-concepts/references/source_map.md",
+        "skills/arbor-dev/SKILL.md",
+        "skills/arbor-dev/references/source_map.md",
+        "skills/arbor-fileformat/SKILL.md",
+        "skills/arbor-fileformat/references/source_map.md",
+        "skills/arbor-getting-started/SKILL.md",
+        "skills/arbor-getting-started/references/source_map.md",
+        "skills/arbor-parallel-hpc/SKILL.md",
+        "skills/arbor-parallel-hpc/references/source_map.md",
+        "skills/arbor-simulation-workflows/SKILL.md",
+        "skills/arbor-theory-and-methods/SKILL.md",
+        "skills/arbor-theory-and-methods/references/source_map.md",
+        "skills/arbor-troubleshooting/SKILL.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/arbor-advanced-topics/SKILL.md",
+        "skills/arbor-advanced-topics/references/source_map.md",
+        "skills/arbor-concepts/SKILL.md",
+        "skills/arbor-concepts/references/source_map.md",
+        "skills/arbor-dev/SKILL.md",
+        "skills/arbor-dev/references/source_map.md",
+        "skills/arbor-fileformat/SKILL.md",
+        "skills/arbor-fileformat/references/source_map.md",
+        "skills/arbor-getting-started/SKILL.md",
+        "skills/arbor-getting-started/references/source_map.md",
+        "skills/arbor-parallel-hpc/SKILL.md",
+        "skills/arbor-parallel-hpc/references/source_map.md",
+        "skills/arbor-simulation-workflows/SKILL.md",
+        "skills/arbor-theory-and-methods/SKILL.md",
+        "skills/arbor-theory-and-methods/references/source_map.md",
+        "skills/arbor-troubleshooting/SKILL.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "doc"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Default source auto-discovery only found python; explicit Arbor source roots are required.",
+      "Tutorial material also exists under doc/tutorial and is covered by docs_dirs=doc.",
+      "Patched sci-skills-generator/scripts/generate_skills_folder.py f-string join syntax for deterministic execution."
+    ],
+    "package_name": "arbor",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "arbor",
+      "arborenv",
+      "arborio",
+      "modcc",
+      "python",
+      "lmorpho",
+      "mechanisms",
+      "sup"
+    ],
+    "test_dirs": [
+      "test",
+      "python/test",
+      "validation"
+    ],
+    "tutorial_dirs": [
+      "example",
+      "python/example"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/arbor-arbor",
+  "run_id": "compile_20260301T021900537861Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "arbor-api-and-scripting",
+      "arbor-build-and-install",
+      "arbor-concepts",
+      "arbor-contrib",
+      "arbor-cpp",
+      "arbor-dev",
+      "arbor-developer-guide",
+      "arbor-examples-and-tutorials",
+      "arbor-fileformat",
+      "arbor-general",
+      "arbor-getting-started",
+      "arbor-index",
+      "arbor-inputs-and-modeling",
+      "arbor-parallel-hpc",
+      "arbor-requirements",
+      "arbor-simulation-workflows",
+      "arbor-theory-and-methods",
+      "arbor-troubleshooting",
+      "arbor-validation"
+    ],
+    "core_skill_ids": [
+      "arbor-build-and-install",
+      "arbor-api-and-scripting",
+      "arbor-simulation-workflows",
+      "arbor-examples-and-tutorials",
+      "arbor-inputs-and-modeling",
+      "arbor-cpp"
+    ],
+    "deferred_gaps": [
+      "Confirm whether validation/ should stay in test_dirs or move to a separate validation bucket in later schema revisions.",
+      "After generation, run source-map coverage audit to ensure arbor/arborenv/arborio/modcc symbols are referenced.",
+      "Collapse or rename any low-signal autogenerated topics before final pass to keep total skill count coherent."
+    ],
+    "goal": "Regenerate Arbor docs-first skills with explicit source roots, then enrich core workflows and audit coverage.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "refresh",
+        "must_cover": [
+          "Route by user intent to build, API, simulation, HPC, troubleshooting, and advanced topics",
+          "Prefer docs-first lookup before source inspection"
+        ],
+        "reason": "Controls routing quality for all downstream skills and prevents topic sprawl.",
+        "skill_id": "arbor-index",
+        "source_hints": [
+          "doc/index.rst",
+          "doc/",
+          "skills/"
+        ]
+      },
+      {
+        "action": "refresh",
+        "must_cover": [
+          "Minimal install to first simulation",
+          "Core terminology and model setup entry points"
+        ],
+        "reason": "High-frequency onboarding path for first successful run.",
+        "skill_id": "arbor-getting-started",
+        "source_hints": [
+          "doc/tutorial/",
+          "doc/python/",
+          "example/single/"
+        ]
+      },
+      {
+        "action": "refresh",
+        "must_cover": [
+          "CMake configuration patterns for CPU/GPU/MPI",
+          "Dependency and packaging paths (pip/spack/source build)"
+        ],
+        "reason": "Build/toolchain issues are common and block all other workflows.",
+        "skill_id": "arbor-build-and-install",
+        "source_hints": [
+          "doc/install/",
+          "CMakeLists.txt",
+          "python/"
+        ]
+      },
+      {
+        "action": "refresh",
+        "must_cover": [
+          "Recipe-to-run workflow with outputs",
+          "Checkpointing/reproducibility and validation hooks"
+        ],
+        "reason": "Core scientific value comes from robust run/restart/output workflows.",
+        "skill_id": "arbor-simulation-workflows",
+        "source_hints": [
+          "doc/tutorial/",
+          "example/",
+          "arbor/"
+        ]
+      },
+      {
+        "action": "refresh",
+        "must_cover": [
+          "Key Python API objects and execution flow",
+          "Bridging examples from docs to python/example and python/test"
+        ],
+        "reason": "Python API usage is a primary user interface and needs runnable snippets.",
+        "skill_id": "arbor-api-and-scripting",
+        "source_hints": [
+          "doc/python/",
+          "python/example/",
+          "python/test/",
+          "python/"
+        ]
+      },
+      {
+        "action": "refresh",
+        "must_cover": [
+          "MPI/thread/GPU configuration and common pitfalls",
+          "Scaling-oriented run guidance and diagnostics"
+        ],
+        "reason": "Performance portability is central to Arbor and HPC setup errors are expensive.",
+        "skill_id": "arbor-parallel-hpc",
+        "source_hints": [
+          "doc/tutorial/network_ring_gpu.rst",
+          "doc/install/",
+          "arborenv/",
+          "test/unit-distributed/"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Merge one-doc generated topics into a single router",
+          "Preserve links to niche docs without creating fragmented skills"
+        ],
+        "reason": "Consolidates low-signal one-doc topics to keep skill count focused and maintainable.",
+        "skill_id": "arbor-validation",
+        "source_hints": [
+          "doc/concepts/",
+          "doc/contrib/",
+          "doc/fileformat/",
+          "doc/dev/"
+        ]
+      },
+      {
+        "action": "audit",
+        "must_cover": [
+          "Build/runtime error signatures with concrete checks",
+          "Validation and test commands tied to expected outcomes"
+        ],
+        "reason": "Pass 3 should verify actionable fixes and avoid vague failure guidance.",
+        "skill_id": "arbor-troubleshooting",
+        "source_hints": [
+          "test/",
+          "python/test/",
+          "validation/",
+          "doc/install/"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "arbor-build-and-install",
+      "arbor-api-and-scripting",
+      "arbor-simulation-workflows",
+      "arbor-examples-and-tutorials",
+      "arbor-inputs-and-modeling",
+      "arbor-cpp"
+    ],
+    "docs_only": false,
+    "errors": [
+      "skill plan target missing from generated skills/: arbor-validation"
+    ],
+    "index_skills": [
+      "arbor-index"
+    ],
+    "missing_planned_skills": [
+      "arbor-validation"
+    ],
+    "ok": false,
+    "planned_skill_ids": [
+      "arbor-index",
+      "arbor-getting-started",
+      "arbor-build-and-install",
+      "arbor-simulation-workflows",
+      "arbor-api-and-scripting",
+      "arbor-parallel-hpc",
+      "arbor-validation",
+      "arbor-troubleshooting"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 15,
+    "source_inventory": {},
+    "source_links_total": 208,
+    "topic_skills": 14,
+    "warnings": []
+  }
+}
